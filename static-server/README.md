@@ -5,7 +5,7 @@
 ```
 docker run --name static-server \
   -p 80:8080 \
-  -v ./:/resources \
+  -v /path/to/resources:/resources \
   -d \
   -t duxiaodong/static-server
 ```
