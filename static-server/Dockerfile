@@ -1,6 +1,6 @@
-FROM node:8.9.1-alpine
-LABEL maintainer="duxiaodong@darlin.me" version="1.0.1"
+FROM node:8.9.3-alpine
+LABEL maintainer="duxiaodong@darlin.me" version="1.1.0"
 
-RUN npm i http-server -g
+RUN npm i serve -g
 VOLUME ["/resources"]
-CMD ["http-server", "/resources"]
+CMD ["serve", "--port", "8080", "/resources"]

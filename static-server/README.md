@@ -1,4 +1,5 @@
 ## static-server
+https://github.com/zeit/serve
 
 ## Usage
 
